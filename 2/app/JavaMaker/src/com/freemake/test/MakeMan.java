@@ -39,7 +39,7 @@ public class MakeMan {
             String beanClassName = "YourBean";
             String beanPro[] = new String[] { "name", "sex", "age" };
             // end 不同文件需要改变的参数
-            String beanProFile = "";
+            String beanProFile = "./in/test.json";
             
             for (int i = 0; i < args.length; i++) {
                 switch (i) {
