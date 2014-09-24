@@ -9,8 +9,8 @@ import android.provider.BaseColumns;
  * create by freemaker
  */
 public class ${className}Provider extends BaseProvider {
-    public static final String AUTHORITY = "com.mobile17173.game.${className}Provider";
-    public static final String TABLE_PATH = "${className}";
+    public static final String AUTHORITY = "${providerpackage}.${className}Provider";
+    public static final String TABLE_PATH = "${className}TB";
     public static final Uri CONTENT_URI = Uri.withAppendedPath(Uri.parse("content://" + AUTHORITY), TABLE_PATH);
     
     public static class Columns implements BaseColumns{
