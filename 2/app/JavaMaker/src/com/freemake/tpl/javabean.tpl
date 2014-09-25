@@ -7,7 +7,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import android.database.Cursor;
 import ${providerpackage}.${className}Provider;
-import ${providerpackage}.${className}Provider;
 
 import android.content.ContentValues;
 
