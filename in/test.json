@@ -1,63 +1,47 @@
 {
-    "aid": "2",
-    "title": "爱心包裹",
-    "type": "1",
-    "uname": "爱心人士",
-    "content": "爱心包裹简介爱心包裹简介爱心包裹简介爱心包裹简介爱心包裹简介.",
-    "pic": "201409141228035.jpg",
-    "begtime": "2014-08-23",
-    "endtime": "2014-10-23",
-    "transport": "邮政EMS",
-    "feedback": "",
-    "fbtitle": "活动反馈标题",
-    "fbpic": "",
-    "fbpics": "",
-    "forward": "0",
-    "expand": [
-        {
-            "name": "铅笔",
-            "goal": "100",
-            "pic": "qb.png",
-            "total": "67"
-        },
-        {
-            "name": "书包",
-            "goal": "100",
-            "pic": "sb.png",
-            "total": "82"
+            "id": "22",
+            "title": "爱心涌动 情满果园",
+            "type": "1",
+            "uname": "爱心网161",
+            "uid": "161",
+            "content": "“车来了,爱心包裹到了！”孩子们兴奋地奔走相告。当满载着爱心包裹的邮车驶入果子园乡中心小学操扬时，整个校园沸腾了。 老师们立刻忙碌超来，把一个爱心包裹分发到每个孩子们手中，女生们选中了自己喜欢的粉红色、绿色，男孩子们也挑到了中意的天蓝色、黄色。我们一年级的孩子们如获至宝地抱着书包兴冲冲地飞向座位，迫不及待地打开书包，惊喜接踵而至：“哇，布娃娃，真漂亮！”“瞧，水壶，太好看了！”“哇噻，彩色！有24种颜色！”胡华松眼睛一亮，兴奋地叫起来，“老师，以后涂颜色再也不用您的红钢笔了！”是啊！以前上课时遇到叫同学们涂上喜欢的颜色的题目时，大多数孩子没有彩笔，只好用我的红钢笔来代替一下。今天一下子拥有这么多种颜色的彩笔，怎么不叫他们高兴呢？ “看，自动铅笔，还有水笔！”",
+            "pic": "201409201418589.jpg",
+            "pics": null,
+            "ctime": "2014-09-22 12:13:36",
+            "begtime": "2014-09-19 00:00:00",
+            "endtime": "2014-09-24 00:00:00",
+            "transport": "ems136",
+            "feedback": "",
+            "fbtitle": "",
+            "fbpic": "",
+            "fbpics": "",
+            "forward": "0",
+            "expand": [
+                {
+                    "total": "3",
+                    "name": "水笔",
+                    "goal": "350",
+                    "pic": "20140920141938460.jpg",
+                    "unti": "支"
+                }
+            ],
+            "charitytotal": null,
+            "scale": "0",
+            "diploma": "pic/cards/15kgjr2aa.gif",
+            "diplomadesc": "",
+            "order": "0",
+            "top": "0",
+            "state": "1",
+            "activitystate": null,
+            "orderid": "484",
+            "orderstate": "0",
+            "city": "北京",
+            "transportuid": "136",
+            "desc": "活动捐助提示：请输入您的捐助心情",
+            "share": {
+                "url": "http://www.baidu.com",
+                "pic": "201409191043161.jpg",
+                "title": "当时发生地方",
+                "content": "aaa        "
+            }
         }
-    ],
-    "scale": "0",
-    "diploma": "",
-    "diplomadesc": "",
-    "order": "0",
-    "top": "0",
-    "orderid": "217",
-    "orderstateex": [
-        {
-            "id": 1,
-            "name": "订单审核",
-            "pic": "c1.png",
-            "state": false
-        },
-        {
-            "id": 2,
-            "name": "开始配送",
-            "pic": "c2.png",
-            "state": false
-        },
-        {
-            "id": 3,
-            "name": "已完成",
-            "pic": "c3.png",
-            "state": false
-        }
-    ],
-    "ordercontacts": "联系人",
-    "orderaddr": "地址地址",
-    "orderphone": "13426046740",
-    "orderexpress": "",
-    "orderexpand": "[{\"name\":\"铅笔\",\"total\":5},{\"name\":\"书包\",\"total\":6}]",
-    "orderfeedback": "",
-    "orderctime": "2014-09-15 18:41:57"
-}
