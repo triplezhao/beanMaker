@@ -27,12 +27,17 @@ public class MakeMan {
     /**
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main(String[] javaargs) {
         // System.out.println(System.getProperty("user.dir")+"============");
 
         try {
             // 设置5个参数
             // com1 com2 testbean ./in/user.json json
+        	//从配置文件读取参数
+        	 String config=FileUtil.readFileByLines("config.txt");
+             String[] args = config.split(",");
+        	
+        	
             // 模拟数据源
             String beanPackageName = "com.makeman.p1";
             String providerPackageName = "com.makeman.p2";
