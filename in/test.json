@@ -1,8 +1,10 @@
  {
-            "Id": "1",
-            "About": "关于我们的内容啊啊啊啊",
-            "Interface": "",
-            "Expand": "关于我们的扩展信息",
-            "Utime": "2014-09-26 22:02:43",
-            "Url": "http://123.57.3.197/View/Upload/"
-}
+        "gifIos": "",
+        "giftIcon": "http://p2.v.17173cdn.com/tfrquk/YWxqaGBf/show/20150203/133604/0de87057-96a2-4766-b635-0bae0cafa450.png",
+        "giftType": 0,
+        "giftRule": 0,
+        "giftPrice": 100,
+        "giftName": "福喜",
+        "giftId": 8903,
+        "gifAndroid": ""
+    }

@@ -1,0 +1,4 @@
+com.cyou.mobileshow.bean,
+com.cyou.mobileshow.db,
+ShowGiftBean,
+./in/test.json,
