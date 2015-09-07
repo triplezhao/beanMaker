@@ -10,7 +10,7 @@ import ${providerpackage}.${className}Provider;
 
 import android.content.ContentValues;
 
-public class ${className} implements Serializable{
+public class ${className} extends BaseBean implements Serializable{
 
 	//propslist
 <#list properties as pro>
@@ -49,8 +49,30 @@ public class ${className} implements Serializable{
 		</#list>
 		return bean;
 	}
+	
+	//createFromJSONArray
+    public static ArrayList<${className}> createFromJSONArray(JSONArray jsonArray) throws JSONException {
+
+        if (jsonArray == null) return null;
+
+        ArrayList<${className}> list = new ArrayList<${className}>();
+
+        int count = jsonArray.length();
+        for (int i = 0; i < count; i++) {
+            JSONObject jsonObj = jsonArray.optJSONObject(i);
+            ${className} entity = ${className}.createFromJSON(jsonObj);
+            list.add(entity);
+        }
+        return list;
+    }
+	
     //buildContentValues
-    public static ContentValues buildContentValues(${className} bean) {
+    public static ContentValues buildContentValues(BaseBean baseBean) {
+        ${className} bean = new ${className}();
+
+        if (baseBean != null) {
+            bean = (${className}) baseBean;
+        }
         ContentValues values = new ContentValues();
         <#list properties as pro>
         values.put(${className}Provider.Columns.${pro.proName}, bean.get<@upperFC>${pro.proName}</@upperFC>());
